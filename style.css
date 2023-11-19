@@ -1,0 +1,13 @@
+header{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+img{
+    height: 75px;
+    width: 150px;
+}
+
+.div-header{
+    display: flex;
+}
