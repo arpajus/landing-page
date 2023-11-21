@@ -41,8 +41,6 @@ ul{
 .right-header img{
     height: 170px;
     width: 300px;
-    padding-right: 550px;
-    padding-top: 48px;
 }
 
 .left-header{
@@ -52,12 +50,27 @@ ul{
 
 .left-header h1{
     font-size: 48px;
-    padding-left: 64px;
+    margin-left: 64px;
     font-weight: bold;
 }
 
 .left-header p{
-    padding-left: 64px;
+    margin-left: 64px;
     width: 400px;
     font-size: 24px;
+}
+
+.right-header{
+    display: flex;
+    gap: 32px;
+    padding-right: 88px;
+    padding-top: 48px;
+}
+
+.left-header button{
+    background-color: #3882F6;
+    color: white;
+    width: 80px;
+    margin-left: 64px;
+    border-radius: 1px;
 }
