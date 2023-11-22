@@ -18,6 +18,12 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
 #ul-header{
     display: flex;
     gap: 16px;
@@ -39,8 +45,8 @@ ul{
 }
 
 .right-header img{
-    height: 170px;
-    width: 300px;
+    height: 260px;
+    width: 640px;
 }
 
 .left-header{
@@ -61,9 +67,7 @@ ul{
 }
 
 .right-header{
-    display: flex;
-    gap: 32px;
-    padding-right: 88px;
+    padding-right: 300px;
     padding-top: 48px;
 }
 
@@ -72,5 +76,37 @@ ul{
     color: white;
     width: 80px;
     margin-left: 64px;
-    border-radius: 1px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 128px;
+}
+
+.information h1{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 64px;
+}
+
+.img-information img{
+    border:rgb(55, 58, 63) solid 1px;
+    width: 320px;
+    height: 180px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+}
+
+.row-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.img-information p{
+    width: 200px;
 }
