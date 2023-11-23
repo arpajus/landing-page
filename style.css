@@ -109,4 +109,44 @@ a{
 
 .img-information p{
     width: 200px;
+    margin-bottom: 88px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style:italic;
+    padding: 88px;
+}
+
+#reference{
+    text-align: right;
+}
+
+.publicity-container{
+    background-color: #3882F6;
+    margin: 88px;
+    height: 128px;
+    padding: 64px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content-publicity p{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#p-publicity{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.publicity-container button{
+    width: 80px;
+    height: 24px;
+    border: none;
+    border-radius: 32px;
 }
