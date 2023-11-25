@@ -1,17 +1,20 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 header{
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 16px 0;
 }
 
 .div-header{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding: 0 64px;
 }
 
 ul{
@@ -47,6 +50,7 @@ a{
 .right-header img{
     height: 260px;
     width: 640px;
+    object-fit: cover;
 }
 
 .left-header{
